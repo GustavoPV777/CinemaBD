@@ -1,0 +1,13 @@
+<div *ngIf="movie">
+  <p>
+    Title: {{movie.title}}
+  </p>
+  <p>
+    Overview: {{movie.overview}}
+  </p>
+</div>
+<div *ngIf="!movie">
+  <p>
+    No existe pelicula
+  </p>
+</div>

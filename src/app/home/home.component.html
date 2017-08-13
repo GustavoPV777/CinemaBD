@@ -1,0 +1,31 @@
+<p>
+  home works!
+</p>
+
+<div>
+  <md-input-container>
+    <input mdInput [disabled]="true" placeholder="Nombre">
+  </md-input-container>
+</div>
+
+<div>
+  <md-checkbox [indeterminate]="true" 
+               (change)="onCheck()">
+    Check me!
+  </md-checkbox>
+</div>
+
+<div>
+  <h1 [innerHTML]="title"></h1>
+  <h1>{{title}}</h1>
+  <input type="text" [value]="clickMessage"
+         (keyup)="onKey($event)">
+  <p>{{values}}</p>
+  <div>{{text}}</div>
+</div>
+
+<div>
+   <button (click)="onClickMe()">Click me!</button>
+    {{clickMessage}}
+</div> 
+

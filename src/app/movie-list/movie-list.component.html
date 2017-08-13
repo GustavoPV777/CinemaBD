@@ -1,0 +1,6 @@
+<md-list>
+ <cwa-movie-list-item 
+    *ngFor="let movie of movies" 
+    [movie]="movie" (select)="onSelectMovie($event)">
+ </cwa-movie-list-item>
+</md-list>
