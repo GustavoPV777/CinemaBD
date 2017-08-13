@@ -2,8 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { MovieListComponent } from './movie-list/movie-list.component';
-import { MovieDetailComponent } 
-       from './movie-detail/movie-detail.component';
+import { MovieDetailComponent } from './movie-detail/movie-detail.component';
 
 const routes: Routes = [
   {
