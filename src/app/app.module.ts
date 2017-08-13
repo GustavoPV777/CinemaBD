@@ -12,7 +12,6 @@ import { ListComponent } from './list/list.component';
 import { HomeModule } from './home/home.module';
 import { MovieListModule } from './movie-list/movie-list.module';
 import { MovieDetailModule } from './movie-detail/movie-detail.module';
-import { ListModule } from './list/list.module';
 
 @NgModule({
   declarations: [
@@ -28,8 +27,7 @@ import { ListModule } from './list/list.module';
     AppRoutingModule,
     HomeModule,
     MovieListModule,
-    MovieDetailModule,
-    ListModule
+    MovieDetailModule
   ],
   providers: [],
   bootstrap: [AppComponent]
